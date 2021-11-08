@@ -4,11 +4,14 @@
   "description": "a mern signup signin app",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
-  "author": "'Bharath'",
+  "author": "Bharath",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.0.12"
